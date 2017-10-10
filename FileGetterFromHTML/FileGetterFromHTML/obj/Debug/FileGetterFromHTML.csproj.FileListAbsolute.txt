@@ -1,0 +1,11 @@
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\bin\Debug\FileGetterFromHTML.exe.config
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\bin\Debug\FileGetterFromHTML.exe
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\bin\Debug\FileGetterFromHTML.pdb
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\bin\Debug\HTMLSouceGetter.dll
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\bin\Debug\HTMLSouceGetter.pdb
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\bin\Debug\HTMLSouceGetter.dll.config
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\obj\Debug\FileGetterFromHTML.csprojResolveAssemblyReference.cache
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\obj\Debug\FileGetterFromHTML.csproj.CoreCompileInputs.cache
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\obj\Debug\FileGetterFromHTML.exe
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\obj\Debug\FileGetterFromHTML.pdb
+C:\Users\fujit\Documents\ConsoleTool_Repo\FileGetterFromHTML\FileGetterFromHTML\FileGetterFromHTML\bin\Debug\HTMLSouceGetter.xml

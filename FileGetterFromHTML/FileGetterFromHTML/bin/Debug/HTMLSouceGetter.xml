@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HTMLSouceGetter</name>
+    </assembly>
+    <members>
+        <member name="T:Fileutil.HTMLSouceGetter">
+            <summary>
+            HTMLのソースをゲットするクラス
+            </summary>
+        </member>
+        <member name="M:Fileutil.HTMLSouceGetter.GetSource(System.Text.Encoding)">
+            <summary>
+            コンソールに入力されたURLのソースを取得します
+            </summary>
+            <returns>入力されたURLソース</returns>
+        </member>
+        <member name="M:Fileutil.HTMLSouceGetter.GetSource(System.String,System.Text.Encoding)">
+            <summary>
+            URLのソースを取得
+            </summary>
+            <param name="url">取得したいURL</param>
+            <param name="encoding">エンコード形式</param>
+            <returns>入力されたURLソース</returns>
+        </member>
+    </members>
+</doc>
