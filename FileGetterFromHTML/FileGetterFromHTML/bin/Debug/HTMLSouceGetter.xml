@@ -23,5 +23,14 @@
             <param name="encoding">エンコード形式</param>
             <returns>入力されたURLソース</returns>
         </member>
+        <member name="M:Fileutil.HTMLSouceGetter.ParseLine(System.String,System.String[])">
+            <summary>
+            URLソースを「""」でパースして指定の単語が含まれる部分を取得
+            主にソースに埋め込まれているファイルを抽出するために使用
+            </summary>
+            <param name="source">パースするソース</param>
+            <param name="searchWord">検索する単語</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

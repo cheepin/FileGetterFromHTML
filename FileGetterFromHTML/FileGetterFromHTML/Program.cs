@@ -1,40 +1,27 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using System.Net;
 using System.IO;
-namespace Fileutil
+namespace FileUtil
 {
 	class FileGetterFromHTML
 	{
-		static readonly string url = "http://azurlane.wikiru.jp/index.php?%A5%AB%A5%C3%A5%B7%A5%F3";
+		static readonly string url = "http://azurlane.wikiru.jp/index.php?%A5%D6%A5%EB%A5%C9%A5%C3%A5%B0";
 		static void Main(string[] args)
 		{
 			string inputedURL = url;
 			string gettedSource = HTMLSouceGetter.GetSource(inputedURL,Encoding.GetEncoding("EUC-JP"));
-			Console.Write(ParseLine(gettedSource,"jpg","attach2"));
-			Console.ReadKey();
+			var parsedURL =HTMLSouceGetter.ParseLine(gettedSource,"jpg");
+			
+			
+			WebClient web = new WebClient();
+			var rawData = web.DownloadData(parsedURL.Where(X=>X.Contains("attach2")).Select(X=>"http://azurlane.wikiru.jp/" +X).First());
+			File.WriteAllBytes("C:/Users/fujit/Downloads/donwnloadTool/test.jpg",rawData);
 
 		}
 
 
-		static string ParseLine(string gettedSource,params string[]  search)
-		{
-			string currentLine = "";
-			StringReader stringReader = new StringReader(gettedSource);
-			while(currentLine!=null)
-			{
-				string[] parsed = currentLine.Split('"');
-				if(parsed.Length>0)
-				{
-					var s = parsed.Where(X=>X.Contains(search[0]) && X.Contains(search[1]));
-					if(s.Count()>0)
-						return s.First();
-
-				}
-				currentLine = stringReader.ReadLine();
-			}
-
-			return null;
-		}
+		
 	}
 }
